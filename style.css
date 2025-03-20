@@ -1,0 +1,38 @@
+/* reset our CSS */
+body,
+html {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.menu {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.5rem;
+	font-family: sans-serif;
+	color: #000;
+	cursor: pointer;
+	font-size: 2rem;
+}
+
+.menu-item:hover {
+	text-decoration: underline;
+}
+
+canvas {
+	display: block;
+}
+
+#sketch {
+	width: 100vw;
+	min-height: 800px;
+	overscroll-behavior: none;
+}
